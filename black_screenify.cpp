@@ -1,3 +1,7 @@
+/* compile with:
+ * g++ black_screenify.cpp -lX11
+ */
+
 #include <X11/Xlib.h>
 #include <iostream>
 #include <thread>
@@ -8,9 +12,7 @@
 #include <unistd.h>
 #include <tuple>
 
-/* create the x11 window overlay 
- * 
- */
+/* create the x11 window overlay  */
 void build_window();
 
 int main(const int argc, char* const* argv) {
