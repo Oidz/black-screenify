@@ -1,4 +1,4 @@
-/* compile with:
+/* Compile with:
  * g++ black_screenify.cpp -lX11
  */
 
